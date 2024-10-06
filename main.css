@@ -8,12 +8,17 @@ header {
   padding: 16px 0;
   background-color: #182c61;
   color: #ecf0f1;
+  font-family: "Bungee", sans-serif;
+  font-weight: normal;
+}
+body {
+  font-family: "Roboto", system-ui;
 }
 
 header nav li {
   display: inline;
   margin: auto 16px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 header nav a {
@@ -38,8 +43,32 @@ section .container {
 
 .brand-list img {
   height: 24px;
+  margin-right: 8px;
 }
 
 .brand-list li {
   display: inline;
+}
+section .container {
+  align-items: flex-start;
+}
+
+section {
+  padding: 24px 0;
+  color: #182c61;
+}
+
+section h2 {
+  margin-bottom: 16px;
+  font-family: "Bungee", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+section p {
+  margin-bottom: 8px;
+}
+
+.store-front {
+  margin-right: 32px;
 }
