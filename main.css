@@ -29,8 +29,17 @@ header nav a:hover {
   width: 100%;
   margin: 0 auto;
 }
-header .container {
+header .container,
+section .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.brand-list img {
+  height: 24px;
+}
+
+.brand-list li {
+  display: inline;
 }
