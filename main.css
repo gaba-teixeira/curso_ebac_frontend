@@ -53,12 +53,12 @@ section .container {
   align-items: flex-start;
 }
 
-section {
+#about {
   padding: 24px 0;
   color: #182c61;
 }
 
-section h2 {
+#about h2 {
   margin-bottom: 16px;
   font-family: "Bungee", sans-serif;
   font-size: 20px;
