@@ -97,6 +97,8 @@ section p {
 .contact-options {
   display: flex;
   justify-content: space-between;
+  margin-top: 8px;
+  color: #182c61;
 }
 
 form input,
