@@ -11,7 +11,9 @@ header {
   font-family: "Bungee", sans-serif;
   font-weight: normal;
 }
-body {
+body,
+input,
+textarea {
   font-family: "Roboto", system-ui;
 }
 
@@ -58,11 +60,12 @@ section .container {
   color: #182c61;
 }
 
-#about h2 {
+section h2 {
   margin-bottom: 16px;
   font-family: "Bungee", sans-serif;
   font-size: 20px;
   font-weight: normal;
+  color: #182c61;
 }
 
 section p {
@@ -71,4 +74,81 @@ section p {
 
 .store-front {
   margin-right: 32px;
+}
+
+.social-links img {
+  height: 24px;
+  margin-top: 8px;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 8px;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+#contact .container {
+  display: block;
+}
+
+.contact-options {
+  display: flex;
+  justify-content: space-between;
+}
+
+form input,
+textarea,
+button {
+  display: block;
+  width: 300px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+form input:focus,
+textarea:focus {
+  outline-color: #182c61;
+}
+
+form textarea {
+  resize: none;
+  height: 180px;
+}
+
+form button {
+  background-color: #182c61;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  font-family: "Bungee", sans-serif;
+}
+
+form button:hover {
+  color: #182c61;
+  background-color: #fff;
+  cursor: pointer;
+}
+section h3,
+form {
+  color: #182c61;
+  font-family: "Bungee", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+footer {
+  background-color: #182c61;
+  color: #ecf0f1;
+  opacity: 90%;
+  padding: 16px 0;
+  text-align: center;
+  font-size: small;
+}
+
+footer a {
+  color: #ecf0f1;
 }
